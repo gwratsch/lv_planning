@@ -2,13 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Planninggroup;
 
-class ClientController extends Controller
+class PlanninggroupController extends Controller
 {
-
     /**
      * Display a listing of the resource.
      *
@@ -16,8 +15,7 @@ class ClientController extends Controller
      */
     public function index()
     {
-        $users = DB::select('select * from users');
-        return view('user.show', compact('users'));
+        return "Klant adres gegevens. test 2";
     }
 
     /**
@@ -47,9 +45,11 @@ class ClientController extends Controller
      * @param  \App\Client  $client
      * @return \Illuminate\Http\Response
      */
-    public function show(Client $client)
+    public function show(Planninggroup $planninggroup)
     {
-        //
+        //$planninggroup = Planning_group::get();
+        $planninggroup = DB::select('select * from planning_group');
+        return view('planninggroup.show', compact('planninggroup'));
     }
 
     /**
@@ -58,7 +58,7 @@ class ClientController extends Controller
      * @param  \App\Client  $client
      * @return \Illuminate\Http\Response
      */
-    public function edit(Client $client)
+    public function edit(Planninggroup $planninggroup)
     {
         //
     }
@@ -70,7 +70,7 @@ class ClientController extends Controller
      * @param  \App\Client  $client
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Client $client)
+    public function update(Request $request, Planninggroup $planninggroup)
     {
         //
     }
@@ -81,7 +81,7 @@ class ClientController extends Controller
      * @param  \App\Client  $client
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Client $client)
+    public function destroy(Planninggroup $planninggroup)
     {
         //
     }
