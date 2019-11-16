@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Test PHP-2030 version.
+                    Laravel Test PHP-2020 version.
                 </div>
 
                 <div class="links">
