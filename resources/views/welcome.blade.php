@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel DEMO PHP-2030 version.
+                    Laravel Tempo PHP-2030 version.
                 </div>
 
                 <div class="links">
