@@ -82,6 +82,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel Tempo PHP-2030 version.
+                    Management: 
                 </div>
 
                 <div class="links">
