@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Test PHP-2020 version.
+                    Laravel Tempo PHP-2030 version.
+                    Management: 
                 </div>
 
                 <div class="links">
